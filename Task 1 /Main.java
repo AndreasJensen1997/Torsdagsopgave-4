@@ -1,9 +1,7 @@
 class Main {
 	
-
 public static void main (String[] args){
-
-
+	
 Team team1 = new Team("Liverpool");
 team1.setRank(52);
 team1.addPlayer("Mohammed Salah");

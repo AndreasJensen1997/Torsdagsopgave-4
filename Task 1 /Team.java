@@ -1,7 +1,5 @@
 import java.util.ArrayList;
 class Team {
-	
-
 
 private String teamName;
 private int teamRank;

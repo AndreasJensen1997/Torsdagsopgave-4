@@ -5,11 +5,8 @@ class Main{
 	
 
 public static void main (String[] args){
-	
-
 
 ArrayList<String> actions = new ArrayList<String>();
-
 
 actions.add("1) Start Game");
 actions.add("2) Resume Game");

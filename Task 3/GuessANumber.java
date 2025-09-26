@@ -31,37 +31,25 @@ public class GuessANumber {
 
     // Let the user try again by calling this method recursively
         makeAGuess();
-
     }
-
     // Help the user by revealing wether the guess was lower or higher than the target number
     else if (guess > rnd_number){
     System.out.print(guess + " Too high! Try again! ");
         makeAGuess();
-
     }
     else if (guess < rnd_number){
     System.out.print( " Too low! Try again! ");
         makeAGuess();
     }
 
-   
-    } 
-
+    }
  // if input was not numeric show an error message and call this method recursively
     else{
 
         System.out.print("Error: Input is not numeric. Try again!");
         makeAGuess();
-
-
     }
-
-
-
- 
-
-        
+    
         
     }
 }
